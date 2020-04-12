@@ -1,5 +1,5 @@
 const form = document.querySelector(".quiz");
-const result = document.querySelector("results");
+const result = document.querySelector(".results");
 const scoreResults = document.querySelector("span");
 const correctAnswers = ["B", "B", "B", "B"];
 
@@ -22,7 +22,8 @@ const clickButton = form.addEventListener("submit", (e) => {
     }
   });
 
-  result.classList(remove);
+  scrollTo(0, 0);
+  result.classList.remove("none");
 
   let output = 0;
   const timer = setInterval(() => {
