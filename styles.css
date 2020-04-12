@@ -3,8 +3,21 @@
   padding: 0;
   font-family: "Playfair Display", serif;
   text-align: center;
+  background-color: #f7cac9;
+}
+
+.title {
+  font-size: xx-large;
 }
 
 .quiz {
   font-family: "Roboto", sans-serif;
+  margin: 30px;
+  line-height: 40px;
+  color: white;
+  font-size: large;
+}
+
+.results {
+  display: none;
 }
